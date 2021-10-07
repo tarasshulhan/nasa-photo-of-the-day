@@ -8,7 +8,7 @@ function App() {
   let [astroImg, setAstroImg] = useState(null);
 
   useEffect(() => {
-    axios.get('https://api.nasa.gov/planetary/apod?api_key=ak8r52VMp7qQ8vpGsdc9V4SiSI4hIuFTvNeP4ekb')
+    axios.get('https://api.nasa.gov/planetary/apod?api_key=M995HPlqXP1GQT34tD7bjCw8QcRvUn9PbWuS8xQH')
       .then(res => {
         setAstroImg(res.data)
       }).catch(err => {
